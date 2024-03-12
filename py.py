@@ -21,3 +21,26 @@ print(STUDENT_NAME)
 
 x=y=z=10 #assigning one value to multiple variables
 x,y,z=30,40,50#multiple values being assigned to multiple variables
+
+#casting in python
+a=1
+b="1"
+c=a+int(b)
+print("the sum of a and b is:",c)
+
+firstname="Jonathan"
+secondname="121121"
+thirdname=firstname+" "+str(secondname)
+print("My third name is :",thirdname)
+#logical operator
+age=50
+nationality="Kenyan"
+if nationality=="Kenyan" and age>=35:
+    print("you can be  president")
+else:
+    print("you cannot be president")
+constituency="Embakasi,Westlands,Kasarani"
+if constituency=="Embakasi"or"Kasarani"or"Westlands":
+    print("you are Governor")
+else:
+    print("you are not Governor")
