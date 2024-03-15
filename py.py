@@ -90,6 +90,14 @@ for num in numbers:
         total+=num
 print("The sum of odd numbers from 1 to 10 is :",total)
 
+i=0
+sum=0
+while i<=10:
+    if i%2==1:
+        sum=sum+i
+    i=i+1
+print("the total sum is :",sum)
+
 
 
 
