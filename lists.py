@@ -63,3 +63,37 @@ myset.add("mazda")
 print(myset)
 myset.discard("mazda")
 print(myset)
+
+#getting the repeated elements
+my_list=["apple", "banana", "cherry", "apple", "apple"]
+repeated_fruits = set()
+non_repeated_fruits = set()
+for i in my_list:
+     if my_list.count(i)>1:
+           repeated_fruits.add(i)
+     else:
+         non_repeated_fruits.add(i)
+print("The repeated items are:", repeated_fruits)
+print("the non-repeated items are:", non_repeated_fruits)
+
+#dictionaries
+mydict = {"brand": "toyota", "model": "harrier", "year": "2016"}
+print("My old dictionary is:", mydict)
+delete_keys = ["brand", "model"]
+for key in delete_keys:
+    del mydict[key]
+print("My old dictionary is:", mydict)
+
+
+number1=0
+number2=20
+try:
+    x=number1/number2
+    print(x)
+except Exception as e:
+    print("something went wrong:", e)
+    print("program ended")
+else:
+    print(x)
+    print("all is well")
+
